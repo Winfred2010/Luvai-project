@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom scrollbar and sleek defaults */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.3);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.6);
+}
+
+body {
+  @apply antialiased text-slate-800 bg-slate-50/70 transition-colors duration-200 dark:text-slate-100 dark:bg-[#070814];
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Sweeping theme overrides when .dark is active */
+.dark {
+  --text-slate-900: #f8fafc;
+  --text-slate-800: #f1f5f9;
+  --text-slate-700: #cbd5e1;
+  --text-slate-600: #94a3b8;
+  color: #cbd5e1;
+}
+
+.dark .bg-white {
+  background-color: #12142d !important;
+}
+
+.dark .text-slate-900,
+.dark .text-slate-800,
+.dark .text-slate-700 {
+  color: #f8fafc !important;
+}
+
+.dark .text-slate-605,
+.dark .text-slate-600,
+.dark .text-slate-500,
+.dark .text-slate-400 {
+  color: #a5b4fc !important;
+}
+
+.dark .border-slate-100,
+.dark .border-slate-200,
+.dark .border-slate-300 {
+  border-color: #1e2040 !important;
+}
+
+.dark .bg-slate-50,
+.dark .bg-slate-50\/50,
+.dark .bg-slate-50\/70,
+.dark .bg-slate-100 {
+  background-color: #0c0d21 !important;
+}
+
+.dark select,
+.dark input,
+.dark textarea {
+  background-color: #161835 !important;
+  border-color: #1e2040 !important;
+  color: #f8fafc !important;
+}
+
+.dark select option {
+  background-color: #0c0d21 !important;
+  color: #f8fafc !important;
+}
+
+.dark .divide-y > * + * {
+  border-color: #1e2040 !important;
+}
+
+/* Specific elements like modal containers and overlays */
+.dark .bg-black\/50,
+.dark .bg-slate-900\/50 {
+  background-color: rgba(3, 7, 18, 0.7) !important;
+}
+
+.dark .bg-slate-500\/10 {
+  background-color: rgba(99, 102, 241, 0.15) !important;
+}
+

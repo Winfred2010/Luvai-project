@@ -1,0 +1,6 @@
+{
+  "name": "Inventory Management System",
+  "description": "A responsive full-stack inventory management system for small businesses, shops, and pharmacies featuring real-time stock updates, supplier registry, sales tracking, dynamic notifications, camera scanning, multi-branch control, and AI-powered demand forecasting predictions.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
