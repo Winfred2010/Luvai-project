@@ -1,0 +1,6 @@
+{
+  "name": "CivicLink Kenya",
+  "description": "Connecting Kenyan communities with government agencies, NGOs, and donors to report and track public infrastructure challenges like water, electricity, roads, and services, aided by an AI assistant.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

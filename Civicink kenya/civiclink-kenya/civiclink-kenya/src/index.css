@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", "Inter", sans-serif;
+  --color-brand-green: #006643; /* Elegant Kenyan Flag Green */
+  --color-brand-blue: #003399; /* Vibrant Parastatal/Water Blue */
+  --color-brand-red: #990000; /* Subtle Kenyan Shield Red */
+}
+
+/* Custom smooth scrolling and layout adjustments */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Beautiful custom modern scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.4);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 163, 175, 0.6);
+}
+
+/* Accent overlays */
+.map-glow {
+  box-shadow: 0 0 20px rgba(0, 102, 67, 0.15);
+}
+
