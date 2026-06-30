@@ -1,0 +1,8 @@
+{
+  "name": "EmpowerHer Connect",
+  "description": "A support and development platform designed to empower single mothers who have experienced domestic violence, abandonment, poverty, or other life challenges. Focuses on justice, emotional healing, skills training, employment, and community support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
